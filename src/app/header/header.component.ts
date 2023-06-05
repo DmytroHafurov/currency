@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
         }
       },
       (error) => {
-        console.error('Ошибка при получении курса валют', error);
+        console.error('Помилка', error);
       }
     );
   }

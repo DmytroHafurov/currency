@@ -15,7 +15,7 @@ export class CurrencyConverterComponent implements OnChanges {
   defaultCurrency: string = 'Выберите валюту';
 
   conversionRates: { [key: string]: number } = {
-    UAH: 1, // Курс гривны к гривне (1 UAH = 1 UAH)
+    UAH: 1, 
     USD: 0,
     EUR: 0,
   };
@@ -41,7 +41,6 @@ export class CurrencyConverterComponent implements OnChanges {
   }
 
   getFlagImageUrl(currency: string): string {
-    // Здесь вы можете определить логику для получения URL-ссылки на изображение флага в зависимости от выбранной валюты
     if (currency === 'UAH') {
       return 'https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg';
     } else if (currency === 'USD') {
