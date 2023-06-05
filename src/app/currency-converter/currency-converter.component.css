@@ -1,0 +1,65 @@
+.converter {
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+}
+  
+.converter div {
+  margin-bottom: 10px;
+}
+  
+.converter h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+  
+.converter label {
+  font-weight: bold;
+}
+  
+.converter input[type="number"],
+.converter select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+.converter p {
+  margin: 0;
+}
+  
+.converter p:last-child {
+  margin-top: 10px;
+}
+
+#amountInput {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+img {
+  width: 40px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+
+.result {
+  text-align: center;
+}
